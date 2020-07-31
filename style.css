@@ -1,0 +1,114 @@
+main.js#up{
+    display: flex;
+  }
+  #div{
+    position: relative;
+    left: 50%;
+    background-color: rgb(243, 231, 231);
+    width: 200px;
+    height: 25px;
+    border-style: double;
+    border-radius: 20px;
+    border-width: 2px;
+    color: brown;
+
+  }
+  #currency{
+    position: relative;left: 30%;
+    background-color: rgb(243, 231, 231);
+    width: 200px;
+    height: 25px;
+    border-style: double;
+    border-radius: 20px;
+    border-width: 2px;
+    color: brown;
+  }
+  #input{
+    position: relative;
+    left: 10%;
+    background-color: rgb(243, 231, 231);
+    width: 200px;
+    height: 25px;
+    border-style: double;
+    border-radius: 20px;
+    border-width: 2px;
+    color: brown;
+  }
+.button:hover{
+background:linear-gradient(#C6F8FF,#71C2FF,#2681E6,#00BDFF,#6ED0FF);
+}
+#c:hover{
+background:linear-gradient(#C6F8FF,#71C2FF,#2681E6,#00BDFF,#6ED0FF);}
+#F:hover{
+background:linear-gradient(#C6F8FF,#71C2FF,#2681E6,#00BDFF,#6ED0FF)
+;}
+#F{
+background:black;
+color:white;
+transition-duration:1s;
+}
+#c{
+background:linear-gradient(#EDEDED,red,#FFB6B9);
+color:white;
+transition-duration:1s;
+}
+.button{
+padding:0;
+border-radius:5px;
+width:50px;
+height:50px;
+font-size:30px;
+font-weight:500px;
+box-shadow:2px 1px 5px black;
+background:linear-gradient(#DDDDDD,#848484,#333333,#595959,#767676);
+transition-duration:1s;
+color:white;
+}
+.end:hover{
+background:linear-gradient(#C6F8FF,#71C2FF,#2681E6,#00BDFF,#6ED0FF);
+}
+.end{
+width:50px;
+height:50px; 
+margin-left:10px;
+width:200px;
+font-size:30px;
+border-radius:5px;
+box-shadow:2px 1px 5px black;
+background:linear-gradient(#00FFF3,#00CEFF,#0083FF,#002CFF);
+color:white;
+transition-duration:1s;
+}
+.textview{
+width:210px;
+margin-left:5px;
+margin-top:5px;
+border-radius:5px;
+padding-top:0;
+background:#C2E3E3;
+font-size:25px;
+}
+table{
+margin-left:4px;
+}
+#zero{
+height:50px;
+position:absolute;
+left:580px;
+top:270px;
+font-size:30px;
+}
+.main{
+border:2px inset black;
+background:linear-gradient(#616266,#808080);
+margin: 20px auto 0px auto;
+box-shadow:2px 1px 5px;
+width:225px;
+height:390px;
+border-radius:10px;
+}
+.calc{
+font-family:serif;
+text-align:center;
+background:radial-gradient(#FF7900,#F2FF00);
+bor
